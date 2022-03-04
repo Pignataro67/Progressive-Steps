@@ -33,7 +33,11 @@ body {
     transition: 0.4s ease;
   }
   
- 
+  .circle.active {
+    border-color: var(--line-border-fill);
+  }
+  
+  
  
 .btn:disabled {
   background-color: var(--line-border-empty);
