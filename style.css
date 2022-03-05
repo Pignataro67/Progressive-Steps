@@ -45,6 +45,18 @@ body {
   z-index: -1;
 }
   
+.progress {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
 .circle {
   background-color: #fff;
   color: #999;
