@@ -20,6 +20,10 @@ body {
   margin: 0;  
 }
 
+.container {
+  text-align: center;
+}
+
 .circle {
   background-color: #fff;
   color: #999;
