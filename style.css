@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   margin: 0;  
 }
@@ -29,8 +29,8 @@ body {
   justify-content: space-between;
   position: relative;
   margin-bottom: 25px;
-  max-width: 100%;
-  width: 335
+  max-width: 95%;
+  width: 340
   px;
 }
 
@@ -55,15 +55,15 @@ body {
   height: 4px;
   width: 0%;
   z-index: -1;
-  transition: 0.4s ease;
+  transition: 0.7s ease;
 }
 
 .circle {
   background-color: #fff;
   color: #999;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  border-radius: 45%;
+  height: 25px;
+  width: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,10 +87,10 @@ body {
   background-color: var(--line-border-fill);
   color: #fff;
   border: 0;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
   font-family: inherit;
-  padding: 7px 30px;
+  padding: 7px 25px;
   margin: 7px;
   font-size: 10px;
 }
